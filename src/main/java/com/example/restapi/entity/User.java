@@ -1,8 +1,11 @@
 package com.example.restapi.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
+@Data
 @Entity
 @Table(name = "Users")
 public class User {

@@ -1,9 +1,13 @@
 package com.example.restapi.entity;
 
+
+import lombok.Data;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
+//@Data
+@Data
 @Table(name = "Messages")
 public class Message {
     @Id
@@ -23,6 +27,5 @@ public class Message {
 
     @Column(name = "message_time")
     private LocalDateTime messageTime;
-
 
 }
