@@ -3,6 +3,7 @@
 ##PostMan Sample Data
 
 test message send to server
+RUL : http://localhost:8080/msgDto/message
 ```json
 {
 "messageId": "ABC1234",
